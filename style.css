@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    width: 100vw;
+
+}
+nav ul
+{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    margin-right: 3vw;
+    display: flex;
+    flex-wrap: nowrap;
+}
+nav{
+    background-color: #00203FFF;
+    width: 100%;
+    height: 5vw;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img
+{
+    height: 5vw;
+    margin-left: 8vw;
+    padding: 1vw;
+}
+
+body
+{
+    background-color: #ADEFD1FF;
+}
+nav ul li a
+{
+    display: block;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1.5vw;
+    text-align: justify;
+    height: 5vw;
+    color: #ADEFD1FF;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+}
+.hero
+{
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.sap_img img
+{
+    padding-top: 5vw;
+    height: 40vw;
+    padding-right: 7vw;
+}
+.hero_text a
+{
+    color: #ADEFD1FF;
+    background-color: #00203FFF;
+    text-decoration: none;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    font-size: 2vw;
+}
+.bi
+{
+    color: #ADEFD1FF;
+}
+.hero-font
+{
+    color: #00203FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3vw;
+    padding-top: 6vw;
+    padding-left: 7vw;
+}
+.about-button
+{
+    padding-top: 4vw;
+    padding-left: 7vw;
+}
+.hero_text a:hover 
+{
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+    border: 2px solid #00203FFF;
+}
+.hero_text a:hover i
+{
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+}
+.about
+{
+    background-color: #00203FFF;
+    padding-bottom: 5vw;
+}
+.about-head
+{
+    color: #ADEFD1FF;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 3vw;
+}
+.about-text
+{
+    color: #ADEFD1FF;
+    font-size: 2vw;
+    padding:5vw;
+    text-align: center;
+}
+.about-img
+{
+    height: 20vw;
+    margin-top: 3vw ;
+    margin-right: 10vw;
+    border-radius: 11vw;
+}
+.about1
+{
+    display: flex;
+}
+.skills
+{
+    background-color: #ADEFD1FF;
+    padding-bottom: 5vw;
+}
+.c img
+{
+    height: 16vw;
+}
+.c
+{
+   text-align: center;
+}
+.c p
+{
+    color: #ADEFD1FF;
+    background-color: #00203FFF;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 2vw;
+    border-radius: 5vw;
+    margin-top: 2vw;
+}
+.html1 img
+{
+    height: 16vw;
+}
+.html1 p
+{
+    color: #ADEFD1FF;
+    background-color: #00203FFF;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 2vw;
+    border-radius: 5vw;
+    margin-top: 2vw;
+}
+.html1 
+{
+    text-align: center;
+}
+.css1 img
+{
+    height: 16vw;
+}
+.css1
+{
+    text-align: center;
+}
+.css1 p
+{
+    color: #ADEFD1FF;
+    background-color: #00203FFF;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 2vw;
+    border-radius: 5vw;
+    margin-top: 2vw;
+}
+.solidworks img
+{
+    height: 12vw;
+}
+.solidworks
+{
+    text-align: center;
+    margin-left: 7vw;
+}
+.solidworks p
+{
+    color: #ADEFD1FF;
+    background-color: #00203FFF;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 2vw;
+    border-radius: 5vw;
+}
+.fusion img
+{
+    height: 12vw;
+}
+.fusion
+{
+    text-align: center;
+}
+.fusion p
+{
+    color: #ADEFD1FF;
+    background-color: #00203FFF;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 2vw;
+    border-radius: 5vw;
+}
+.skills1
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vw;
+    margin-bottom: 3vw;
+    align-items: center;
+}
+.skills2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-head
+{
+    color: #00203FFF;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 3vw;
+}
+.contact
+{
+    background-color: #00203FFF;
+    padding-bottom: 1.5vw;
+}
+.contact-head
+{
+    color: #ADEFD1FF;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 3vw;
+}
+.phone
+{
+    color: #ADEFD1FF;
+    text-align: center;
+    font-size: 2vw;
+    padding-right: 5vw;
+    padding-left: 11vw;
+}
+.mail
+{
+    color: #ADEFD1FF;
+    text-align: center;
+    font-size: 2vw;
+}
+.whatsapp
+{
+    color: #ADEFD1FF;
+    text-align: center;
+    font-size: 2vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+}
+.linkedin
+{
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+    padding: 1vw;
+    border-radius: 5vw;
+    justify-content: space-between;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.fb
+{
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+    padding: 1vw;
+    border-radius: 5vw;
+    justify-content: space-between;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.insta
+{
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+    padding: 1vw;
+    border-radius: 5vw;
+    justify-content: space-between;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.bi-facebook
+{
+    color: #00203FFF;
+}
+.bi-linkedin
+{
+    color: #00203FFF;
+}
+.bi-instagram
+{
+    color: #00203FFF;
+}
+.contact1
+{
+    display: flex;
+    padding: 2vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    justify-content: space-evenly;
+}
+.contact2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+    margin-bottom: 6vw;
+}
+.linkedin a
+{
+    text-decoration: none;
+}
+.fb a
+{
+    text-decoration: none;
+}
+.insta
+{
+    text-decoration: none;
+}
+.cr
+{
+    color: #ADEFD1FF;
+    text-align: center;
+    font-size: 1vw;
+}
